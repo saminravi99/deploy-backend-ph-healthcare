@@ -18,7 +18,7 @@ app.post(
 );
 
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:3001', "https://deploy-backend-ph-healthcare.onrender.com"],
+    origin: ['http://localhost:3000', 'http://localhost:3001'],
     credentials: true
 }));
 
